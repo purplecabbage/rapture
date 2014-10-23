@@ -19,6 +19,10 @@
 
         <!-- wp8 -->
     <platform name="wp8">
+        <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Capabilities">
+            <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+        </config-file>
+
         <config-file target="config.xml" parent="/*">
             <feature name="Rapture">
                 <param name="wp8-package" value="Rapture"/>
