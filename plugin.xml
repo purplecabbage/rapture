@@ -16,4 +16,15 @@
         <header-file src="src/ios/Rapture.h" />
         <source-file src="src/ios/Rapture.m" />
     </platform>
+
+        <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Rapture">
+                <param name="wp8-package" value="Rapture"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/wp8/Rapture.cs" />
+    </platform>
 </plugin>
