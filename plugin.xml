@@ -25,7 +25,7 @@
 
         <config-file target="config.xml" parent="/*">
             <feature name="Rapture">
-                <param name="wp8-package" value="Rapture"/>
+                <param name="wp-package" value="Rapture"/>
             </feature>
         </config-file>
 
